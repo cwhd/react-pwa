@@ -53,6 +53,16 @@ export default class Header extends PureComponent {
                 Home
               </Link>
               <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
+                Lists
+              </Link>
+              <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
+                Wallets
+              </Link>
+              <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
+                Profle
+              </Link>
+
+              <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
                 Global & Local CSS
               </Link>
               <Link className="navbar-item" to="/typescript-counter" onClick={() => this.closeMenuBar()}>
@@ -67,16 +77,6 @@ export default class Header extends PureComponent {
               <Link className="navbar-item" to="/login" onClick={() => this.closeMenuBar()}>
                 Auth
               </Link>
-              <Link className="navbar-item" to="/contribute" onClick={() => this.closeMenuBar()}>
-                Contribute
-              </Link>
-              <a
-                className="navbar-item has-text-danger"
-                href="https://www.reactpwa.com"
-                onClick={() => this.closeMenuBar()}
-              >
-                Visit ReactPWA.com
-              </a>
             </div>
           </div>
         </nav>

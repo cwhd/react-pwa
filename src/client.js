@@ -69,8 +69,9 @@ export default class Client {
   }
 
   apply(clientHandler) {
-    clientHandler.hooks.locationChange.tapPromise('ReloadAds', async () => this.advertise());
-    clientHandler.hooks.locationChange.tapPromise('ReloadGoogleTrack', async () => Client.googleTrack());
-    clientHandler.hooks.renderComplete.tap('ReloadAds', async () => this.advertise());
+    //TODO this will load the ad at the bottom
+    //clientHandler.hooks.locationChange.tapPromise('ReloadAds', async () => this.advertise());
+    //clientHandler.hooks.locationChange.tapPromise('ReloadGoogleTrack', async () => Client.googleTrack());
+    //clientHandler.hooks.renderComplete.tap('ReloadAds', async () => this.advertise());
   }
 }

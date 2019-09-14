@@ -6,11 +6,8 @@ export default () => (
     <div className="hero-body">
       <div className="container">
         <h1 className="title">
-            Welcome to Shopr
+            Lists go here!
         </h1>
-        <h2 className="subtitle">
-            Your personal shopping AI, keeping your best interest in mind - always.
-        </h2>
         <Link to="/home" className="button">Checkout the full demo</Link>
       </div>
     </div>

@@ -43,10 +43,10 @@ export default () => (
       <div className="hero-body">
         <div className="container">
           <h1 className="title">
-            Features
+            Shopr
           </h1>
           <h2 className="subtitle">
-            There are no limits for creativity
+            Working for you.
           </h2>
         </div>
       </div>
@@ -54,65 +54,23 @@ export default () => (
     <section className="m-t-lg">
       <div className="container p-l-md p-r-md">
         <h4 className="title is-4">
-          ReactPWA is configurable to the core.
-          You can add plugins as you like to extend the features or
-          you can use a bare minimum to start from scratch.
+          Shopr helps you save time and money by helping you shop.
         </h4>
         <div className="columns">
           <Column
-            title="Babel 7"
-            description="Already packed with the latest babel to achieve great performance and lower bundle size."
-            link="https://babeljs.io/blog/2018/08/27/7.0.0"
+            title="Save money and time"
+            description="Shopr manages your shopping with your best interest in mind - always. She can manage your day to day shopping, wishlists, and find you deals that you care about."
+            link="#"
           />
           <Column
-            title="Webpack 4"
-            description="Optimized chunk splitting and is 98% more faster!
-            Thus creating small chunks and only loading the required chunk (code splitting)."
-            link="https://medium.com/webpack/webpack-4-released-today-6cdb994702d4"
+            title="Cryptocompatible"
+            description="Shopr uses crytocurrency to transact, opening up a world of true free trade and commerce."
+            link="#"
           />
           <Column
-            title="Image Optimization"
-            description="@pawjs/image-optimizer specially for image optimizations.
-            Improving the compression of image with image-webpack-loader"
-            link="https://www.reactpwa.com/docs/en/plugin-image-optimization.html"
-          />
-        </div>
-        <div className="columns">
-          <Column
-            title="Skeleton loaders"
-            description="All the goodness of skeleton loading with very simple route configuration.
-            Supports pre-loading of data for the route as well."
-            link=""
-          />
-          <Column
-            title="Non Conflicting CSS"
-            description="Create hashed css classes such as _ax1c2d for your css modules loaded for
-            the specific component, thus no-conflict for using same class names"
-            link=""
-          />
-          <Column
-            title="Redux"
-            description="Integrating redux made simple with @pawjs/redux.
-            Preconfigured SSR with redux at your finger tips with minimum configuration"
-            link="https://www.reactpwa.com/docs/en/plugin-redux.html"
-          />
-        </div>
-        <div className="columns">
-          <Column
-            title="SASS"
-            description="Fan of SASS and PostCSS/CSSNext? well @pawjs/sass can help you
-            add sass support very easily to your project."
-            link="https://www.reactpwa.com/docs/en/plugin-sass.html"
-          />
-          <Column
-            title="Deployments"
-            description="Oh yes it is very simple to deploy and we already have tutorials for Heroku, Amazon EC2 & Digital Ocean"
-            link="https://www.reactpwa.com/docs/en/deploying-to-heroku.html"
-          />
-          <Column
-            title="Zero Configuration"
-            description="You can also start minimal with react-pwa. You just need one file: `src/routes.js` and nothing more."
-            link=""
+            title="Personal Advocate"
+            description="Shopr is an AI based agent. Instead of using AI to cross or upsell you stuff, Shopr uses AI for your benefit to find you deals and let you know what retailers are trying to sell you and why."
+            link="#"
           />
         </div>
       </div>

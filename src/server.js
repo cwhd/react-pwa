@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactPWAIcon from './resources/img/react-pwa.png';
+import authentication from 'react-azure-adb2c';
+
 
 export default class Server {
   // eslint-disable-next-line
@@ -21,10 +23,11 @@ export default class Server {
       return true;
     });
 
-    serverHandler.hooks.beforeHtmlRender.tapPromise('AddCodeFundScript', async (Application) => {
-      Application.htmlProps.footer.push(<script id="js-codefund" async key="codefund" data-src="https://codefund.app/properties/136/funder.js" />);
-    });
+    //serverHandler.hooks.beforeHtmlRender.tapPromise('AddCodeFundScript', async (Application) => {
+    //  Application.htmlProps.footer.push(<script id="js-codefund" async key="codefund" data-src="https://codefund.app/properties/136/funder.js" />);
+    //});
 
+    /*
     serverHandler.hooks.beforeHtmlRender.tapPromise('AddGoogleTracking', async (Application) => {
       Application.htmlProps.footer.push(<script async key="googleanalyticslink" src="https://www.googletagmanager.com/gtag/js?id=UA-108804791-2" />);
       Application.htmlProps.footer.push(<script
@@ -38,5 +41,6 @@ export default class Server {
         }}
       />);
     });
+    */
   }
 }

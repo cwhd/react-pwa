@@ -1,15 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import GuestLayout from './guest-layout';
 
 export default () => (
-  <section className="hero is-info is-fullheight">
-    <div className="hero-body">
-      <div className="container">
-        <h1 className="title">
-            Wallets go here!
-        </h1>
-        <Link to="/home" className="button">Checkout the full demo</Link>
-      </div>
-    </div>
-  </section>
+  <GuestLayout>
+      <h1 className="title">
+          Wallets go here!
+      </h1>
+      <div>Your digital wallets hold cryptocurrency that Shopr will use to make purchases for you.</div>
+  </GuestLayout>
 );

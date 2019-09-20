@@ -39,7 +39,7 @@ Column.propTypes = {
 
 export default () => (
   <GuestLayout>
-    <section className="hero is-medium is-info is-bold">
+    <section className="hero is-medium is-info">
       <div className="hero-body">
         <div className="container">
           <h1 className="title">

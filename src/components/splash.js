@@ -11,7 +11,7 @@ export default () => (
         <h2 className="subtitle">
             Your personal shopping AI, keeping your best interest in mind - always.
         </h2>
-        <Link to="/home" className="button">Checkout the full demo</Link>
+        <Link to="/home" className="btn btn-default">Our site is under construction, but feel free to check it out.</Link>
       </div>
     </div>
   </section>

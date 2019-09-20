@@ -30,7 +30,6 @@ export default class Header extends PureComponent {
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="container">
             <div className="navbar-brand">
-              <Link to="/" className=" navbar-item"><strong>ReactPWA</strong></Link>
               <button
                 type="button"
                 onClick={e => this.toggleMenuBar(e)}
@@ -52,28 +51,16 @@ export default class Header extends PureComponent {
               <Link className="navbar-item" to="/home" onClick={() => this.closeMenuBar()}>
                 Home
               </Link>
-              <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
+              <Link className="navbar-item" to="/lists" onClick={() => this.closeMenuBar()}>
                 Lists
               </Link>
-              <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
+              <Link className="navbar-item" to="/wallets" onClick={() => this.closeMenuBar()}>
                 Wallets
               </Link>
-              <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
-                Profle
+              <Link className="navbar-item" to="/profile" onClick={() => this.closeMenuBar()}>
+                Settings
               </Link>
 
-              <Link className="navbar-item" to="/global-local-css" onClick={() => this.closeMenuBar()}>
-                Global & Local CSS
-              </Link>
-              <Link className="navbar-item" to="/typescript-counter" onClick={() => this.closeMenuBar()}>
-                TypeScript Counter
-              </Link>
-              <Link className="navbar-item" to="/skeleton-loading" onClick={() => this.closeMenuBar()}>
-                Skeleton Loading
-              </Link>
-              <Link className="navbar-item" to="/image-optimization" onClick={() => this.closeMenuBar()}>
-                Image Optimization
-              </Link>
               <Link className="navbar-item" to="/login" onClick={() => this.closeMenuBar()}>
                 Auth
               </Link>

@@ -3,8 +3,30 @@ import { Redirect } from 'react-router-dom';
 import GuestLayout from './guest-layout';
 import cookie from '../libs/cookie';
 import Authenticator from './fake-authenticator';
+import authentication from 'react-azure-adb2c';
+import AuthApp from './msal/AuthApp';
+
+authentication.initialize({
+  // optional, will default to this
+  instance: 'https://login.microsoftonline.com/tfp/', 
+  // your B2C tenant
+  tenant: 'shoprb2c.onmicrosoft.com',
+  // the policy to use to sign in, can also be a sign up or sign in policy
+  signInPolicy: 'B2C_1_web_signup_signin',
+  // the the B2C application you want to authenticate with (that's just a random GUID - get yours from the portal)
+  applicationId: 'ef58c4f3-eeeb-43e2-8bbe-bddf9658c058',
+  // where MSAL will store state - localStorage or sessionStorage
+  cacheLocation: 'sessionStorage',
+  // the scopes you want included in the access token
+  scopes: ['https://shoprb2c.onmicrosoft.com/api/user_impersonation'],
+  // optional, the redirect URI - if not specified MSAL will pick up the location from window.href
+  redirectUri: 'http://localhost:3003',
+  // optional, the URI to redirect to after logout
+  postLogoutRedirectUri: 'http://localhost:3003'
+});
 
 export default class Login extends React.Component {
+
   onLoginRedirectUrl = '/dashboard';
 
   constructor(props) {

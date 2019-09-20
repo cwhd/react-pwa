@@ -1,15 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import GuestLayout from './guest-layout';
 
 export default () => (
-  <section className="hero is-info is-fullheight">
-    <div className="hero-body">
-      <div className="container">
-        <h1 className="title">
-            Profile goes here!!
-        </h1>
-        <Link to="/home" className="button">Checkout the full demo</Link>
+  <GuestLayout>
+      <h1 className="title">
+          Settings 
+      </h1>
+      <div>
+        Here will be settings for:
+        <ul>
+        <li>Frequency</li>  
+        <li>Preferences</li>  
+        <li>Info</li>  
+        </ul> 
       </div>
-    </div>
-  </section>
+  </GuestLayout>
+
 );

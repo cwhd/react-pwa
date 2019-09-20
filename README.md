@@ -13,10 +13,6 @@ A highly scalable, Progressive Web Application foundation,boilerplate, with the 
 #### Demo: [https://demo.reactpwa.com](https://demo.reactpwa.com)
 
 ### Quick Start
-Clone the repository:
-```bash
-git clone https://github.com/Atyantik/react-pwa.git && cd react-pwa 
-```
 
 Install the dependencies:
 ```bash
@@ -32,6 +28,11 @@ To build the project run the following command in your terminal:
 ```bash
 npm run build
 ```
+
+## TODOs
+
+this is the old theme color:
+head.push(<meta key="meta-theme-color" name="theme-color" content="#209cee" />);
 
 ## PawJS
 Proudly supported by **PawJS**   
